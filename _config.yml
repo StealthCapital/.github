@@ -1,0 +1,25 @@
+# Jekyll configuration for GitHub Pages
+title: StealthCapital
+description: Strategic investments in emerging technologies
+url: "https://stealthcapital.github.io"
+baseurl: ""
+
+# Theme
+theme: jekyll-theme-minimal
+
+# GitHub
+github:
+  is_project_page: false
+  repository_url: https://github.com/StealthCapital/.github
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Plugins
+plugins:
+  - jekyll-github-metadata
